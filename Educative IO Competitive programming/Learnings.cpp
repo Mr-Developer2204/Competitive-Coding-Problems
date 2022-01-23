@@ -136,8 +136,49 @@ int main()
     7. 20-25 -  O(2^N)
     8. 20   -   O(2^N * N)
     9. 10   -   O(N^6),O(N!)
-        
+    10. 5    -  O(N^7)
+    */
 
+
+    //Number Theory
+
+    /*
+        Basic Algebra 
+        Basic Geometry
+            Square  -  Area - a^2 ; Perimeter - 4a
+            Rectangle - Area - a*b ; Perimeter - 2(a+b)
+            Circle - Area - πr^2 ; Perimeter - 2πr
+            Triangle - Area - ½abh ; Perimeter - b+a+√(a^2+b^2)
+            Trapezoid - Area - ½(a+b)h ; Perimeter - a+b+c
+            Parallelogram - Area - bh ; Perimeter - 2(a+b)
+            Rhombus - Area - abh ; Perimeter - 4a
+            Hexagon - Area - 6a^2 ; Perimeter - 6a
+            Octagon - Area - 8a^2 ; Perimeter - 8a
+            Kite - Area - 2a^2 ; Perimeter - 4a
+
+            Distance
+            Pythagoras - a^2 + b^2 = c^2 ; Also called as Euclidean distance
+            Manhattan - |a| + |b| = |c| ;(dm = |x2-x1| + |y2-y1| ) Also called as Taxicab distance
+            Chebyshev - |a| + |b| + |c| = |d| ; Also called as Chebyshev distance
+        
+        Arithmetic Progression
+            Terms : a, a+d, a+2d, a+3d, …, a+(n-1)d
+            Nth Term : a + (n-1)d
+            Sum : N/2(2a + (n-1)d)
+        
+        Gerometric Progression
+            Terms : a, a*r, a*r^2, a*r^3, …, a*r^n
+            Nth Term : a*r^(n-1)
+            Sum : a*(1-r^n)/(1-r) for r!=1
+            Sum for infinite progression : a/1-r;
+
+        Permutation
+            Number of ways to arrange a item in a set of n items : n!
+            With Repetition k itmes from n : n^k;
+            Without Repetition k items from n : n!/(n-k)!; nPr
+    
+        Combination
+            
     */
     return 0;
 }
