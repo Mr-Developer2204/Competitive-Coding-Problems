@@ -125,5 +125,19 @@ int main()
         So, the run-time complexity is actually linear - O(N)O(N)
     */
 
+    /*  N   -  Acceptable Runtime 
+
+    1. 10^7 -   O(N)
+    2. 10^6 -   O(N*logN)
+    3. 10^5 -   O(N * logN) OR O(N * N^0.5)
+    4. 10^4 -   O(N^2)
+    5. 10^3 -   O(N^2 * logN)
+    6. 10^2 -   O(N^3)
+    7. 20-25 -  O(2^N)
+    8. 20   -   O(2^N * N)
+    9. 10   -   O(N^6),O(N!)
+        
+
+    */
     return 0;
 }
